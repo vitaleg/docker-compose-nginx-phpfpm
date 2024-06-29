@@ -1,4 +1,4 @@
-# Docker PHP-FPM 8.3 and Nginx
+# Docker PHP-FPM 7.4 and Nginx
 
 *Notice:* [Use this repository if you're looking for PHP 8.3 with Xdebug 3](https://github.com/IshtarStar/docker-compose-nginx-phpfpm-xdebug-mariadb)
 
@@ -7,7 +7,7 @@
  
 * Built on the lightweight
 * Multi-platform, supporting
-* Uses PHP 8.3 for better performance, lower CPU and memory usage
+* Uses PHP 7.4 for better performance, lower CPU and memory usage
 * Use only resources when traffic exists
 * KISS principle (Keep It Simple, Stupid)
 
