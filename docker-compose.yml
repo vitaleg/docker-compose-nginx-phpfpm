@@ -2,6 +2,7 @@ services:
     web:
         image: nginx:latest
         container_name: sync
+        restart: unless-stopped
         ports:
             - "80:80"
         volumes:
@@ -16,6 +17,7 @@ services:
     php-fpm:
         build: docker/php-fpm
         container_name: syncfpm
+        restart: unless-stopped
         volumes:
             - ./www:/var/www/html
             - ./crontabs:/var/spool/cron/crontabs
